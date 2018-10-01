@@ -1,0 +1,9 @@
+images/*
+sponsors/*
+aaulan_graphics/*
+output/*
+
+!images/images_go_here
+!sponsors/logos_to_overlay_go_here
+!aaulan_graphics/your_own_overlay_goes_here
+!output/result_will_appear_here
