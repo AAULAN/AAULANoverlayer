@@ -2,6 +2,7 @@ images/*
 sponsors/*
 aaulan_graphics/*
 output/*
+.idea/*
 
 !images/images_go_here
 !sponsors/logos_to_overlay_go_here

@@ -38,13 +38,13 @@ offset_scalars = {
 }
 
 # Sponsor rotations in degrees CW
-rotations = 
-{
+rotations = {
 	'sponsor' : 30
 }
 
 ## END OF CONFIG
 
+# TODO Unfinished function
 def get_images(path, file_types):
 	"This returns a list of all images of allowed type in the path"
 	#print("Getting images from {} of type {}".format(path, ','.join(file_types)))
@@ -60,6 +60,7 @@ def get_images(path, file_types):
 
 	return images
 
+# TODO Unfinished function
 def generate_sponsor_overlay(path, file_types, offset, size, rotation):
 	print("nah")
 	# Get all sponsor overlays
@@ -76,6 +77,7 @@ def generate_sponsor_overlay(path, file_types, offset, size, rotation):
 
 	# Return image consisting of sponsor overlay
 
+# TODO Unfinished function
 def generate_event_overlay(path, file_types, offset, size, season):
 	print("eeh")
 	# Get all event overlays
@@ -88,8 +90,7 @@ def generate_event_overlay(path, file_types, offset, size, season):
 
 	# Return image
 
-
-# TODO: Finish this function
+# TODO Unfinished function
 def apply_overlay(image, file_types):
 	
 	background = Image.open(image)
@@ -114,7 +115,7 @@ def apply_overlay(image, file_types):
 
 
 
-
+# TODO Unfinished
 for img in get_images(paths['images'] , allowed_file_extensions):
 	print("meh")
 	# For each image, apply an overlay, and save the returned output
