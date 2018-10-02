@@ -44,7 +44,6 @@ rotations = {
 
 ## END OF CONFIG
 
-# TODO Unfinished function
 def get_images(path, file_types):
 	"This returns a list of all images of allowed type in the path"
 	#print("Getting images from {} of type {}".format(path, ','.join(file_types)))
